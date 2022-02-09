@@ -3,8 +3,13 @@ margin:0;
 padding: 0;
 
 }
+// font-family: 'Lora', serif;
+//font-family: 'Montserrat Alternates', sans-serif;
+//font-family: 'Outfit', sans-serif;
 
+body{
 
+}
 
 .navbar{
     display: flex;
@@ -13,7 +18,7 @@ padding: 0;
 i {
     color: #785548;
 }
-.container-home-section{
+.home-section{
     background-color: #272935;
     display: flex;
     flex-direction: column;
@@ -38,9 +43,11 @@ i {
         }
     }
     .container-icons-home{
-        display:flex;
-        flex-direction: row;
         ul{
+            display:flex;
+            flex-direction: row;
+            gap: 1rem;
+            font-size: 4em;
             li{
                 list-style: none;
             }
@@ -55,7 +62,7 @@ i {
     background-color:rgb(184, 183, 183);
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items:flex-start;
 
 }
 .tech-stack-section{
@@ -92,9 +99,11 @@ i {
     .contact-form{
     display:flex;
     flex-direction: column;
-    width: 40rem;
+    width: 80vw;
     button{
-        width:3rem;
+        align-items: flex-end;
+        width:40vw;
+        height:5vh;
     }
     }
 }

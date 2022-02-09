@@ -12,35 +12,37 @@ i {
   color: #785548;
 }
 
-.container-home-section {
+.home-section {
   background-color: #272935;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container-home-section .container-home {
+.home-section .container-home {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1em;
   padding: 2em;
 }
-.container-home-section .container-home img {
+.home-section .container-home img {
   width: 20em;
   height: auto;
   border-radius: 25px;
 }
-.container-home-section .container-home h1 {
+.home-section .container-home h1 {
   color: white;
 }
-.container-home-section .container-home p {
+.home-section .container-home p {
   color: white;
 }
-.container-home-section .container-icons-home {
+.home-section .container-icons-home ul {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
+  font-size: 4em;
 }
-.container-home-section .container-icons-home ul li {
+.home-section .container-icons-home ul li {
   list-style: none;
 }
 
@@ -48,7 +50,7 @@ i {
   background-color: #b8b7b7;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .tech-stack-section {
@@ -86,8 +88,10 @@ i {
 .contact-me-section .contact-form {
   display: flex;
   flex-direction: column;
-  width: 40rem;
+  width: 80vw;
 }
 .contact-me-section .contact-form button {
-  width: 3rem;
+  align-items: flex-end;
+  width: 40vw;
+  height: 5vh;
 }
