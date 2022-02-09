@@ -22,7 +22,7 @@
                         <li><a href ="#about">ABOUT</a></li>
                         <li><a href ="#tech-stack">TECH STACK</a></li>
                         <li><a href ="#projects">PROJECTS</a></li>
-                        <li><a href ="https://www.google.co.uk" target=_blank>CV</a></li>
+                        <li><a href ="http://alpha.sinp.msu.ru/~panov/LibBooks/CR/1556__legalreads.com.pdf" target=_blank>CV</a></li>
                         <li><a href ="#contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -31,40 +31,59 @@
     </header>
     <!--HOME-->
     <section class ="home-section" id="home">
-        <div class ="container-home"> 
-            <img src="" alt="profile picture">
-            <h1>Jia Zheng</h1>
-            <p>Web Developer</p>
-            <p>_nology.io</p>
-        </div>
-        <div class="container-icones-home">
-            <ul>
-                <li>
-                    <a href ="https://github.com/j-jinjia" target=_blank><i class="fa-brands fa-github"></i></a>
-                </li>
-                <li>
-                    <a href ="https://www.linkedin.com/in/jiazheng-jin-jia/" target=_blank></a><i class="fa-brands fa-linkedin"></i></li></a>
-                </li>
-                <li>
-                    <a href ="" target=_blank></a><i class="fa-solid fa-file-pdf"></i></a>
-                </li>
-                <li>
-                    <a href ="" target=_blank></a><i class="fa-solid fa-envelope"></i></a>
-                </li>
-            </ul>
+        
+        <div class="container-home-section">
+            <header class ="container-home">
+                <img src="profilepic.jpg" alt="profile picture">
+                <h1>Jia Zheng Jin Jia</h1>
+                <p>Web Developer</p>
+                <p>_nology.io</p>
+            </header>
+            <div class="container-icons-home">
+                <ul>
+                    <li>
+                        <a href ="https://github.com/j-jinjia" target=_blank><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href ="https://www.linkedin.com/in/jiazheng-jin-jia/" target=_blank><i class="fa-brands fa-linkedin"></i></li></a>
+                    </li>
+                    <li>
+                        <a href ="" target=_blank></a><i class="fa-solid fa-file-pdf"></i></a>
+                    </li>
+                    <li>
+                        <a href ="" target=_blank></a><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </section>
     <!--ABOUT-->
     <section class ="about-section" id="about">
-        <h2>ABOUT</h2>
-        <p>paragraph about me</p>
+        <div class ="container-about-section">
+            <h2>ABOUT</h2>
+            <p>paragraph about me</p>
+            <h3>INTERESTS</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Software Engineering</li>
+                <li>Cloud Computing</li>
+            </ul>
+            <h3>EDUCATION</h3>
+            <ul>
+                <li>BSc Physics with Astrophysics
+                    University of Leeds(UK)
+                </li>
+            </ul>
+        </div>
 
 
     </section>
     <!--TECH STACK-->
     <section class="tech-stack-section" id="tech-stack">
-        <h2>TECH STACK</h2>
+        <div>
+            <h2>TECH STACK</h2>
+        </div>
         <div class="container-icons">
             <ul>
                 <li>
@@ -92,7 +111,7 @@
                 <div class="container-projects__item__description">
                     <div class="container-projects__item__description__text">
                         <h3>Project Title</h3>
-                        <p> Project description</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In voluptatibus quaerat tempore autem mollitia temporibus perspiciatis illo corrupti, velit laborum.</p>
                     </div>
                     <div class="container-projects__item__description__buttons">
                         <button class ="container-projects__item__description__buttons--btn1">GitHub</button>
@@ -106,7 +125,7 @@
                 <div class="container-projects__item__description">
                     <div class="container-projects__item__description__text">
                         <h3>Project Title</h3>
-                        <p> Project description</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptate aperiam dolorem sunt deserunt! Ad blanditiis possimus praesentium ex earum.</p>
                     </div>
                     <div class="container-projects__item__description__buttons">
                         <button class ="container-projects__item__description__buttons--btn1">GitHub</button>
@@ -120,7 +139,7 @@
                 <div class="container-projects__item__description">
                     <div class="container-projects__item__description__text">
                         <h3>Project Title</h3>
-                        <p> Project description</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, reprehenderit dolore. Placeat commodi eos veritatis libero at magnam adipisci earum, rerum voluptate ea quam error? Distinctio magnam nulla vitae! Laboriosam.</p>
                     </div>
                     <div class="container-projects__item__description__buttons">
                         <button class ="container-projects__item__description__buttons--btn1">GitHub</button>
@@ -134,7 +153,7 @@
                 <div class="container-projects__item__description">
                     <div class="container-projects__item__description__text">
                         <h3>Project Title</h3>
-                        <p> Project description</p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptas officia ea sunt est, recusandae in quae dolorum veritatis incidunt eius eaque maxime? Temporibus, nisi. Dicta voluptate tempore delectus quidem?</p>
                     </div>
                     <div class="container-projects__item__description__buttons">
                         <button class ="container-projects__item__description__buttons--btn1">GitHub</button>
@@ -149,6 +168,23 @@
     <!--CV-->
     <!--CONTACT-->
     <section class="contact-me-section" id="contact">
+        <header>
+            <h2>Contact Me</h2>
+            <h3>What did you like about me? Do you want to chat? Get in touch!</h3>
+        </header>
+        <form class="contact-form">
+            <!--Full Name-->
+            <label for ="fullname"> Full Name:</label>
+            <input type="text" name="fullname" id="fullname">
+            <!--Email-->
+            <label for= "email"> Email: </label>
+            <input type="text" name="email" id="email" required>
+            <!--Message-->
+            <label for="message"> Message </label>
+            <textarea name="message" id="message" rows=3 cols=20 required></textarea>
+            <!--Submit button-->
+            <button>Submit</button>
+        </form>
 
     </section>
 
