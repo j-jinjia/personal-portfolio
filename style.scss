@@ -7,9 +7,7 @@ padding: 0;
 //font-family: 'Montserrat Alternates', sans-serif;
 //font-family: 'Outfit', sans-serif;
 
-body{
 
-}
 
 .navbar{
     display: flex;
@@ -30,7 +28,7 @@ i {
         gap: 1em;
         padding:2em;
         img{
-            width:20em;
+            width:80vw;
             height:auto;
             border-radius: 25px;
         }
@@ -62,19 +60,29 @@ i {
     background-color:rgb(184, 183, 183);
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
+    .about-section__body{
+        width:80vw;
+
+    }
+    
 
 }
 .tech-stack-section{
-    background-color:#272935 ;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    ul{
+    .container-tech-stack{
+        background-color:#272935 ;
         display:flex;
-        flex-direction: row;
-        li{
-            list-style: none;
+        flex-direction: column;
+        align-items: center;
+        
+        ul{
+            display:flex;
+            flex-direction: row;
+            font-size: 4em;
+            gap: 1rem;
+            li{
+                list-style: none;
+            }
         }
     }
 }
@@ -83,6 +91,18 @@ i {
     display: flex;
     flex-direction: column;
     align-items:center;
+    
+    .my-projects-section__container{
+        width: 80vw;
+        img{
+            width:80vw;
+            height:auto;
+            border-radius: 25px;
+        }
+    }
+
+
+    
 }
 .contact-me-section{
     display: flex;
@@ -101,7 +121,7 @@ i {
     flex-direction: column;
     width: 80vw;
     button{
-        align-items: flex-end;
+        margin-top: 20px;
         width:40vw;
         height:5vh;
     }

@@ -26,7 +26,7 @@ i {
   padding: 2em;
 }
 .home-section .container-home img {
-  width: 20em;
+  width: 80vw;
   height: auto;
   border-radius: 25px;
 }
@@ -50,20 +50,25 @@ i {
   background-color: #b8b7b7;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+}
+.about-section .about-section__body {
+  width: 80vw;
 }
 
-.tech-stack-section {
+.tech-stack-section .container-tech-stack {
   background-color: #272935;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.tech-stack-section ul {
+.tech-stack-section .container-tech-stack ul {
   display: flex;
   flex-direction: row;
+  font-size: 4em;
+  gap: 1rem;
 }
-.tech-stack-section ul li {
+.tech-stack-section .container-tech-stack ul li {
   list-style: none;
 }
 
@@ -72,6 +77,14 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.my-projects-section .my-projects-section__container {
+  width: 80vw;
+}
+.my-projects-section .my-projects-section__container img {
+  width: 80vw;
+  height: auto;
+  border-radius: 25px;
 }
 
 .contact-me-section {
@@ -91,7 +104,7 @@ i {
   width: 80vw;
 }
 .contact-me-section .contact-form button {
-  align-items: flex-end;
+  margin-top: 20px;
   width: 40vw;
   height: 5vh;
 }
