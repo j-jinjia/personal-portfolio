@@ -11,3 +11,13 @@
 i {
   color: #785548;
 }
+
+.home-section {
+  background-color: #272935;
+}
+.home-section h1 {
+  color: white;
+}
+.home-section p {
+  color: white;
+}
