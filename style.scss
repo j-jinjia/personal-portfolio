@@ -1,7 +1,10 @@
 *{
 margin:0;
 padding: 0;
+
 }
+
+
 
 .navbar{
     display: flex;
@@ -10,14 +13,88 @@ padding: 0;
 i {
     color: #785548;
 }
-.home-section{
+.container-home-section{
     background-color: #272935;
-    h1{
-        color: white;
-        //font-family: 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    .container-home{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 1em;
+        padding:2em;
+        img{
+            width:20em;
+            height:auto;
+            border-radius: 25px;
+        }
+        h1{
+            color: white;
+            //font-family: 
+        }
+        p{
+            color:white;
+        }
     }
-    p{
-        color:white;
-        
+    .container-icons-home{
+        display:flex;
+        flex-direction: row;
+        ul{
+            li{
+                list-style: none;
+            }
+        }
+    }
+    
+    
+}
+
+
+.about-section{
+    background-color:rgb(184, 183, 183);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.tech-stack-section{
+    background-color:#272935 ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    ul{
+        display:flex;
+        flex-direction: row;
+        li{
+            list-style: none;
+        }
+    }
+}
+.my-projects-section{
+    background-color: rgb(184, 183, 183);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.contact-me-section{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:#272935;
+    padding: 40px;
+    color:white;
+    header{
+        h2{
+            align-self:center;
+        }
+    }
+    .contact-form{
+    display:flex;
+    flex-direction: column;
+    width: 40rem;
+    button{
+        width:3rem;
+    }
     }
 }

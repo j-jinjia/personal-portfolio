@@ -12,12 +12,82 @@ i {
   color: #785548;
 }
 
-.home-section {
+.container-home-section {
   background-color: #272935;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.home-section h1 {
+.container-home-section .container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 2em;
+}
+.container-home-section .container-home img {
+  width: 20em;
+  height: auto;
+  border-radius: 25px;
+}
+.container-home-section .container-home h1 {
   color: white;
 }
-.home-section p {
+.container-home-section .container-home p {
   color: white;
+}
+.container-home-section .container-icons-home {
+  display: flex;
+  flex-direction: row;
+}
+.container-home-section .container-icons-home ul li {
+  list-style: none;
+}
+
+.about-section {
+  background-color: #b8b7b7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-stack-section {
+  background-color: #272935;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tech-stack-section ul {
+  display: flex;
+  flex-direction: row;
+}
+.tech-stack-section ul li {
+  list-style: none;
+}
+
+.my-projects-section {
+  background-color: #b8b7b7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272935;
+  padding: 40px;
+  color: white;
+}
+.contact-me-section header h2 {
+  align-self: center;
+}
+.contact-me-section .contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+.contact-me-section .contact-form button {
+  width: 3rem;
 }
