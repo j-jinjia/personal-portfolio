@@ -97,8 +97,9 @@
   width: 80vw;
 }
 .about-section .about-section__body p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 1rem;
+  font-family: "Lora", serif;
 }
 .about-section .about-section__container h3 {
   font-family: "Montserrat Alternates", sans-serif;
@@ -110,6 +111,8 @@
 }
 .about-section .about-section__container ul li {
   list-style-position: inside;
+  font-size: 1.5rem;
+  font-family: "Lora", serif;
 }
 
 .tech-stack-section {
@@ -179,6 +182,9 @@
   display: flex;
   flex-direction: row;
 }
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description .container-projects__item__description__text {
+  font-family: "Lora", serif;
+}
 .my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description .container-projects__icons {
   display: flex;
   flex-direction: column;
@@ -223,11 +229,13 @@
 .contact-me-section header h2 {
   align-self: center;
   padding: 1rem;
+  font-size: 2rem;
 }
 .contact-me-section .contact-form {
   display: flex;
   flex-direction: column;
   width: 80vw;
+  font-family: "Lora", serif;
 }
 .contact-me-section .contact-form button {
   margin-top: 20px;
