@@ -512,11 +512,11 @@
   }
   .contact-me-section .contact-form button {
     margin-top: 20px;
-    width: 20vw;
+    width: 15vw;
     height: 5vh;
   }
   .contact-me-section .restart_btn {
     font-size: 3rem;
-    width: 20vw;
+    width: 10vw;
   }
 }
