@@ -4,11 +4,15 @@
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-around;
   height: 10vh;
+  background-color: white;
 }
 .navbar .navbar__name {
   font-family: "Montserrat Alternates", sans-serif;
@@ -36,6 +40,7 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  padding-top: 5rem;
 }
 .home-section .container-home {
   display: flex;
@@ -149,10 +154,51 @@
 }
 .my-projects-section .my-projects-section__container {
   width: 80vw;
-  padding: 2rem;
+  padding: 1rem;
+}
+.my-projects-section .my-projects-section__container .container-projects__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description__buttons--btn1 {
+  padding: 0.7rem;
+}
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description__buttons--btn2 {
+  padding: 0.8rem;
+}
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description .container-projects__icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #785548;
+  padding-left: 1rem;
+}
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description .container-projects__icons li {
+  font-size: 3rem;
+  list-style: none;
+  color: #785548;
 }
 .my-projects-section .my-projects-section__container h3 {
   font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  justify-self: flex-start;
+}
+.my-projects-section .my-projects-section__container p {
+  font-size: 1.5rem;
 }
 .my-projects-section .my-projects-section__container img {
   width: 80vw;
@@ -189,6 +235,8 @@
   height: 5vh;
 }
 .contact-me-section .restart_btn {
+  margin: 2rem;
+  margin-top: 3rem;
   padding: 1rem;
   font-size: 2rem;
 }
