@@ -3,9 +3,6 @@ margin:0;
 padding: 0;
 
 }
-// font-family: 'Lora', serif;
-//font-family: 'Montserrat Alternates', sans-serif;
-//font-family: 'Outfit', sans-serif;
 
 
 
@@ -97,6 +94,8 @@ padding: 0;
     display: flex;
     flex-direction: column;
     align-items:center;
+    padding:2rem;
+
     header{
         font-family: 'Montserrat Alternates', sans-serif;
         h2{
@@ -106,15 +105,19 @@ padding: 0;
     .about-section__body{
         width:80vw;
         p{
-            font-size:2rem;
+            font-size:1rem;
+            padding:1rem;
         }
 
     }
     .about-section__container{
         h3{
             font-family: 'Montserrat Alternates', sans-serif;
+            font-size:2rem;
+            padding:1rem;
         }
         ul{
+            padding:1rem;
             li{
                 list-style-position: inside;
             }
@@ -124,24 +127,27 @@ padding: 0;
 
 }
 .tech-stack-section{
+    padding:2rem;
+    background-color:#272935;
     header{
         h2{
             font-family: 'Montserrat Alternates', sans-serif;
             color:white;
+            font-size: 3rem;
 
         }
     }
     .container-tech-stack{
-        background-color:#272935 ;
         display:flex;
         flex-direction: column;
         align-items: center;
-        
+      
         ul{
             display:flex;
             flex-direction: row;
             font-size: 4em;
             gap: 1rem;
+            padding:1rem;
             i {
                 color: #785548;
             }
@@ -152,9 +158,13 @@ padding: 0;
     }
 }
 .my-projects-section{
+    padding:2rem;
     header{
         h2{
             font-family: 'Montserrat Alternates', sans-serif;
+            font-size:3rem;
+            padding:1rem;
+
         }
     }
     background-color: rgb(184, 183, 183);
@@ -164,13 +174,14 @@ padding: 0;
     
     .my-projects-section__container{
         width: 80vw;
+        padding:2rem;
         h3{
             font-family: 'Montserrat Alternates', sans-serif;
         }
         img{
             width:80vw;
             height:auto;
-            border-radius: 25px;
+            border-radius: 2rem;
         }
     }
 
@@ -178,29 +189,36 @@ padding: 0;
     
 }
 .contact-me-section{
-    header{
-        font-family: 'Montserrat Alternates', sans-serif;
-    }
     display: flex;
     flex-direction: column;
     align-items:center;
     background-color:#272935;
-    padding: 40px;
+    padding: 2rem;
     color:white;
     header{
+        display:flex;
+        flex-direction:column;
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding:1rem;
         h2{
             align-self:center;
+            padding:1rem;
         }
     }
+
     .contact-form{
     display:flex;
     flex-direction: column;
     width: 80vw;
-    button{
-        margin-top: 20px;
-        width:40vw;
-        height:5vh;
+        button{
+            margin-top: 20px;
+            width:40vw;
+            height:5vh;
+        }
     }
+    .restart_btn{
+        padding:1rem;
+        font-size: 2rem;
     }
 }
 

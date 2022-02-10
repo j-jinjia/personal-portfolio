@@ -80,6 +80,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
 }
 .about-section header {
   font-family: "Montserrat Alternates", sans-serif;
@@ -91,21 +92,31 @@
   width: 80vw;
 }
 .about-section .about-section__body p {
-  font-size: 2rem;
+  font-size: 1rem;
+  padding: 1rem;
 }
 .about-section .about-section__container h3 {
   font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.about-section .about-section__container ul {
+  padding: 1rem;
 }
 .about-section .about-section__container ul li {
   list-style-position: inside;
 }
 
+.tech-stack-section {
+  padding: 2rem;
+  background-color: #272935;
+}
 .tech-stack-section header h2 {
   font-family: "Montserrat Alternates", sans-serif;
   color: white;
+  font-size: 3rem;
 }
 .tech-stack-section .container-tech-stack {
-  background-color: #272935;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,6 +126,7 @@
   flex-direction: row;
   font-size: 4em;
   gap: 1rem;
+  padding: 1rem;
 }
 .tech-stack-section .container-tech-stack ul i {
   color: #785548;
@@ -124,6 +136,7 @@
 }
 
 .my-projects-section {
+  padding: 2rem;
   background-color: #b8b7b7;
   display: flex;
   flex-direction: column;
@@ -131,9 +144,12 @@
 }
 .my-projects-section header h2 {
   font-family: "Montserrat Alternates", sans-serif;
+  font-size: 3rem;
+  padding: 1rem;
 }
 .my-projects-section .my-projects-section__container {
   width: 80vw;
+  padding: 2rem;
 }
 .my-projects-section .my-projects-section__container h3 {
   font-family: "Montserrat Alternates", sans-serif;
@@ -141,7 +157,7 @@
 .my-projects-section .my-projects-section__container img {
   width: 80vw;
   height: auto;
-  border-radius: 25px;
+  border-radius: 2rem;
 }
 
 .contact-me-section {
@@ -149,14 +165,18 @@
   flex-direction: column;
   align-items: center;
   background-color: #272935;
-  padding: 40px;
+  padding: 2rem;
   color: white;
 }
 .contact-me-section header {
+  display: flex;
+  flex-direction: column;
   font-family: "Montserrat Alternates", sans-serif;
+  padding: 1rem;
 }
 .contact-me-section header h2 {
   align-self: center;
+  padding: 1rem;
 }
 .contact-me-section .contact-form {
   display: flex;
@@ -167,4 +187,8 @@
   margin-top: 20px;
   width: 40vw;
   height: 5vh;
+}
+.contact-me-section .restart_btn {
+  padding: 1rem;
+  font-size: 2rem;
 }
