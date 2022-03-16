@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 1rem;
+  position: fixed;
+  z-index: 11;
+  width: 100vw;
+}
+.navbar .navbar__logo {
+  font-size: 2rem;
+}
+.navbar .navbar__close-menu {
+  display: none;
+}
+.navbar .nav-links {
+  display: none;
+}

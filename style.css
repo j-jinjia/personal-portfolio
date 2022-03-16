@@ -173,9 +173,25 @@
 }
 .my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description__buttons--btn1 {
   padding: 0.7rem;
+  color: white;
+  background-color: #785548;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description__buttons--btn1:hover {
+  opacity: 0.7;
 }
 .my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description__buttons--btn2 {
   padding: 0.8rem;
+  color: #785548;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description__buttons--btn2:hover {
+  opacity: 0.7;
 }
 .my-projects-section .my-projects-section__container .container-projects__item .container-projects__item__description {
   margin: 1rem;
@@ -241,12 +257,28 @@
   margin-top: 20px;
   width: 40vw;
   height: 5vh;
+  color: white;
+  background-color: #272935;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.contact-me-section .contact-form button:hover {
+  opacity: 0.7;
 }
 .contact-me-section .restart_btn {
   margin: 2rem;
   margin-top: 3rem;
   padding: 1rem;
   font-size: 2rem;
+  color: white;
+  background-color: #272935;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.contact-me-section .restart_btn:hover {
+  opacity: 0.7;
 }
 
 @media screen and (min-width: 768px) {
@@ -306,17 +338,25 @@
     font-size: 2rem;
   }
 
-  .tech-stack-section {
-    background-color: #272935;
-  }
-  .tech-stack-section header h2 {
-    font-size: 4rem;
-  }
-  .tech-stack-section .container-tech-stack ul {
-    font-size: 5rem;
-    gap: 2rem;
-  }
+  /* .tech-stack-section{
+      background-color:#272935;
+      header{
+          h2{
+              font-size: 4rem;
 
+          }
+      }
+      .container-tech-stack{
+          ul{
+              font-size: 5rem;
+              gap: 2rem;
+          }
+      }
+  } */
+  .my-projects-section {
+    background-color: #272935;
+    color: white;
+  }
   .my-projects-section header h2 {
     font-size: 4rem;
   }
@@ -346,9 +386,13 @@
     font-size: 2rem;
   }
   .my-projects-section .my-projects-section__container .container-projects__item img {
-    width: 75vw;
+    width: 100%;
   }
 
+  .contact-me-section {
+    background-color: #B8B7B7;
+    color: black;
+  }
   .contact-me-section header {
     width: 75vw;
   }
@@ -456,14 +500,6 @@
     font-size: 2rem;
   }
 
-  .tech-stack-section header h2 {
-    font-size: 6rem;
-  }
-  .tech-stack-section .container-tech-stack ul {
-    font-size: 6rem;
-    gap: 2rem;
-  }
-
   .my-projects-section header h2 {
     font-size: 6rem;
   }
@@ -514,9 +550,11 @@
     margin-top: 20px;
     width: 15vw;
     height: 5vh;
+    cursor: pointer;
   }
   .contact-me-section .restart_btn {
     font-size: 3rem;
     width: 10vw;
+    cursor: pointer;
   }
 }

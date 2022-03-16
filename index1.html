@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Jiazheng's Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <!-- Navigation Bar-->
+  <body>
+    <section class="navbar">
+      <div class="navbar__logo">Jia Zheng Jin Jia</div>
+      <button class="navbar__drop-menu">
+        <i class="fa-solid fa-bars" id="burger-menu"></i>
+      </button>
+      <button class="navbar__close-menu"></button>
+      <div class="nav-links">
+        <ul>
+          <li><a href=".home">HOME</a></li>
+          <li><a href=".about">ABOUT</a></li>
+          <li><a href=".projects">PROJECTS</a></li>
+          <li><a href="">RESUME</a></li>
+          <li><a href=".contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- Home Section-->
+    <section class="home">
+      <div class="social">
+        <div class="home-items">
+          <img
+            class="home-items__profile-picture"
+            src="profilepic.jpg"
+            alt="Profile Picture"
+          />
+          <h1 class="home-items__name">Jiazheng Jin Jia</h1>
+          <p class="home-items__descritpion">
+            I'm a Junior Full-Stack Software Developer
+          </p>
+        </div>
+        <ul class="social__icons">
+          <li>
+            <a href="https://github.com/j-jinjia" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/jiazheng-jin-jia/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:j.jinjia99@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="social__button">Let's talk!</button>
+      </div>
+    </section>
+
+    <!-- Projects Section-->
+    <section class="projects">
+      <h3 class="projects__header">My Projects</h3>
+      <div class="projects__container"></div>
+    </section>
+    <!-- About Section-->
+    <section class="about">
+      <h3 class="about__header">About</h3>
+      <p class="about__description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, optio
+        id, labore esse itaque soluta sapiente fugit magni sunt, aut voluptas
+        numquam dicta quisquam quod animi! Perferendis necessitatibus quas
+        nulla!
+      </p>
+      <ul class="tech-stack">
+        <li><i class="fa-brands fa-html5"></i></li>
+        <li><i class="fa-brands fa-css3-alt"></i></li>
+        <li><i class="fa-brands fa-js-square"></i></li>
+        <li><i class="fa-brands fa-js-square"></i></li>
+      </ul>
+      <button>Download CV</button>
+    </section>
+    <!-- Contact Me Section-->
+    <section class="contact">
+      <h3 class="contact__header">Contact Me</h3>
+      <!-- modify this form HTML and place wherever you want your form -->
+      <form
+        class="contact__form"
+        action="https://formspree.io/f/mleznlwk"
+        method="POST"
+      >
+        <input type="text" placeholder="Name" name="Name" />
+        <input type="email" placeholder="Email" name="Email" required />
+        <textarea
+          id="message"
+          placeholder="Message"
+          rows="3"
+          cols="20"
+          required
+          name="Message"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section class="footer">
+      <div class="footer__description"></div>
+    </section>
+  </body>
+</html>

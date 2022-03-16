@@ -196,9 +196,25 @@ padding: 0;
             
             &--btn1{
                 padding:.7rem;
+                color:white;
+                background-color:#785548;
+                border:none;
+                border-radius: 20px;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.7;
+                }
             }
             &--btn2{
                 padding:.8rem;
+                color:#785548;
+                background-color:white;
+                border:none;
+                border-radius: 20px;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.7;
+                }
     
             }
             }
@@ -274,6 +290,14 @@ padding: 0;
             margin-top: 20px;
             width:40vw;
             height:5vh;
+            color:white;
+            background-color:#272935;
+            border:none;
+            border-radius: 20px;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.7;
+            }
         }
 
     
@@ -283,6 +307,14 @@ padding: 0;
         margin-top:3rem;
         padding:1rem;
         font-size: 2rem;
+        color:white;
+        background-color:#272935;
+        border:none;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.7;
+        }
     }
 }
 
@@ -360,7 +392,7 @@ padding: 0;
             }
         }
     }
-    .tech-stack-section{
+    /* .tech-stack-section{
         background-color:#272935;
         header{
             h2{
@@ -374,8 +406,10 @@ padding: 0;
                 gap: 2rem;
             }
         }
-    }
+    } */
     .my-projects-section{
+        background-color:#272935;
+        color:white;
         header{
             h2{
                 font-size:4rem;
@@ -391,9 +425,11 @@ padding: 0;
                 gap:2rem;
                 &--btn1{
                     padding:1rem;
+
                 }
                 &--btn2{
                     padding:1rem;
+
         
                 }
                 }
@@ -412,12 +448,16 @@ padding: 0;
                     font-size:2rem;
                 }
                 img{
-                    width:75vw;
+                       width:100%;
+
                 }
             }
         }
     }
     .contact-me-section{
+        background-color:#B8B7B7;
+        
+        color:black;
         header{
             width:75vw;
             h2{
@@ -545,20 +585,7 @@ padding: 0;
             }
         }
     }
-    .tech-stack-section{
-        header{
-            h2{
-                font-size: 6rem;
-    
-            }
-        }
-        .container-tech-stack{
-            ul{
-                font-size: 6rem;
-                gap: 2rem;
-            }
-        }
-    }
+   
     .my-projects-section{
         header{
             h2{
@@ -622,12 +649,15 @@ padding: 0;
                 margin-top: 20px;
                 width:15vw;
                 height:5vh;
+                cursor: pointer;
+                
             }
 
         }
         .restart_btn{
             font-size: 3rem;
             width:10vw;
+            cursor: pointer;
         }
     }
 
